@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-config-fl3nkey-base",
+  "version": "1.0.1",
+  "description": "stylelint base config by fl3nkey",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FL3NKEY/stylelint-config-fl3nkey.git"
+  },
+  "author": "FL3NKEY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FL3NKEY/stylelint-config-fl3nkey/issues"
+  },
+  "homepage": "https://github.com/FL3NKEY/stylelint-config-fl3nkey#readme",
+  "peerDependencies": {
+    "stylelint": "^14.15.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "stylelint-config-standard-scss": "6.1.0",
+    "stylelint-order": "5.0.0",
+    "stylelint-scss": "4.3.0"
+  }
+}
